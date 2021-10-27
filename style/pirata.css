@@ -1,0 +1,29 @@
+@font-face {
+    font-family:miLetra;
+    src: url("../fonts/ArchitectsDaughter-Regular.ttf");
+}
+
+/*Hoja de estilo de la cancion del pirata de Esponceda*/
+body{background-image: url("../images/fondo.jpg");
+    /*cambio el tamaño background-size:*/
+    /*background-size: 225px 225px;*/
+    /*cambio del efecto repeticion*/
+    background-repeat: repeat;
+    margin: 0; /* con margin :0 y padding: 0 quito el scroll */
+    padding: 0;
+}
+
+#container{background-color: rgba(199, 217, 224, 0.794);
+            /*height: 90vh;/*100vh es el 100% del alto de la pantalla*/
+            width: 90%;/*width indica el ancho se suele regular siempre el ancho pero no el alto height*/
+            padding: 20px 0;
+            margin: auto;/*esto centra el container*/
+            text-align: center;
+            font-family: miLetra;
+            
+}
+#footer{text-align: right;
+        font-family: miLetra;
+        margin-bottom: -0;
+        font-size: 5px;
+}
