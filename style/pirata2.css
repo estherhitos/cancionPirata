@@ -7,7 +7,7 @@
 body{background-color: rgb(221, 221, 221);
         font-family: miLetra;
         color: blanchedalmond;}
-#container{background-image: url(/images/fondopirata2.jpg);
+#container{background-image: url(../images/fondopirata2.jpg);
             background-size: cover;/*estira en vertical y horizontal para que quepa una sola vez*/
             padding: 30px ;
             background-position: left;
