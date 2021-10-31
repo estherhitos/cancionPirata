@@ -1,0 +1,36 @@
+/****** Hoja de estilo del ejercicio INDEX3.css de canción del pirata*****/
+@font-face {
+    font-family: "miLetra";
+    src: url("../fonts/ArchitectsDaughter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "miLetra2";
+    src: url("../fonts/Meddon-Regular.ttf");
+}
+
+body{background-color: rgb(0, 0, 0);
+        font-family: miLetra;
+       /* border:  groove rgb(109, 0, 0);*/}
+#container{background-image: url("../images/fondotres.jpg");
+            background-size: cover;/*estira en vertical y horizontal para que quepa una sola vez*/
+            padding: 10px ;
+            background-position: left;
+            width: 80vw;
+            margin: auto;
+            position: relative;/*relative en position para poder mover la imagen del pargamono hacia la derecha*/
+            height: 90vh;
+            }
+#poema{background-image: url("../images/pergamino.jpg");
+        font-family: miLetra2;
+        font-size: 80%;
+        border: 4px  groove rgb(254, 229, 118);
+        background-position: -20%;
+        width: 400px;
+        text-align: center;
+        color:rgb(47, 49, 38);
+        padding: 5px;
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
